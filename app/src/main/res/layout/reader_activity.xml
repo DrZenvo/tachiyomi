@@ -26,7 +26,7 @@
         style="?textAppearanceBodySmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
+        android:layout_gravity="bottom|start"
         android:padding="4dp"
         android:textStyle="bold" />
 
@@ -85,8 +85,10 @@
             android:id="@+id/reader_nav" />
     </FrameLayout>
 
-    <include layout="@layout/reader_chapters_sheet"
-        android:id="@+id/chapters_sheet"/>
+    <include
+        android:id="@+id/chapters_sheet"
+        layout="@layout/reader_chapters_sheet"
+        android:layout_height="303dp" />
 
     <View
         android:id="@+id/brightness_overlay"

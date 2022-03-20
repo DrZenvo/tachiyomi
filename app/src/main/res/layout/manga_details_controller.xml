@@ -29,7 +29,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/recycler"
-                app:layout_constraintWidth_percent="0.4"
+                app:layout_constraintWidth_percent="0.51"
                 tools:itemCount="1"
                 tools:listitem="@layout/manga_header_item" />
 
@@ -42,6 +42,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/tablet_recycler"
+                android:layout_marginLeft="2dp"
                 tools:listitem="@layout/chapters_item" />
 
             <View
@@ -51,7 +52,7 @@
                 android:alpha=".80"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                app:layout_constraintWidth_percent=".6"
+                app:layout_constraintWidth_percent=".51"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 

@@ -377,7 +377,7 @@ object ImageUtil {
         val height = imageBitmap.height
         val width = imageBitmap.width
         val height2 = imageBitmap2.height
-        val width2 = imageBitmap2.width
+        val width2 = imageBitmap2.width + 140
         val maxHeight = max(height, height2)
         val result = Bitmap.createBitmap(width + width2, max(height, height2), Bitmap.Config.ARGB_8888)
         val canvas = Canvas(result)
